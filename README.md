@@ -1,5 +1,2 @@
 
-本项目基于http://mosquitto.org/
-
-我把他的poll模型修改为了epoll
-用uthash对订阅树进行了优化
+epoll version of [mosquitto](http://mosquitto.org), use uthash to index topic tree for performance
